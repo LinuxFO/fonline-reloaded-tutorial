@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>FOnline Reloaded Tutorial</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,400i,900">
+    <link rel="stylesheet" href="stylesheets/styles.css">
+  </head>
+  <body>
+    <header class="header section" id="header">
+      <div class="container">
+        <div class="jumbotron">
+          <h1 class="display-4">FOnline Reloaded Tutorial</h1>
+          <p class="lead">Tutorial for everyone who wants to start playing FOnline Reloaded. Step by step instructions.</p>
+        </div>
+        <nav>
+          <ul class="list-group">
+            <li class="list-group-item">
+              <a href="#download">1. Download the client</a>
+            </li>
+            <li class="list-group-item">
+              <a href="#configure">2. Configure the client</a>
+            </li>
+            <li class="list-group-item">
+              <a href="#register">3. Register character and start playing</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <div class="container">
+        <article class="card section" id="download">
+          <div class="card-body">
+            <h2>1. Download the client</h2>
+            <p>You can download Fallout Online Reloaded's client in this link: <a href="https://forum.fonline-reloaded.net/index.php?topic=1.0">https://forum.fonline-reloaded.net/index.php?topic=1.0</a></p>
+            <p>Full client is recommended and I'm going to use it in this tutorial.</p>
+          </div>
+        </article>
+        <article class="card section" id="configure">
+            <div class="card-body">
+              <h2>2. Configure the client</h2>
+              <p>After downloading the FOnline Reloaded's client you should configure it. First of all, run Updater.exe and make sure that host and port are set properly.</p>
+              <code class="code">
+                Host: europe.fonline.org<br>
+                Port: 4040
+              </code>
+              <p>Click Check button and get updates. It might look like this:</p>
+              <code class="code">
+                Begin checking...<br>
+                Receive PublicNameColorizing.txt 2470 bytes.<br>
+                Done, for 0 seconds.<br>
+                Receive data\reloaded002.zip 74610 bytes.<br>
+                Done, for 0 seconds.<br>
+                Update complete.<br>
+                Checking end.
+              </code>
+              <p>Now, close Updater.exe and prepare for setting config file. You can change settings in 2 ways:</p>
+              <ol>
+                <li>
+                  FOConfig.exe - GUI tool which is responsible for changing different options such as Combat Mode, Resolution or Sound,
+                </li>
+                <li>
+                  FOnline.cfg - configuration file which can be edited by FOConfig.exe or manually by using notepad (example Visual Studio Code).
+                </li>
+              </ol>
+              <p>Let's open FOConfig.exe and check all tabs. You can see my config and do the same way as I usually do.</p>
+              <p>You can change game's resolution to any resolution as you want to but keep in mind that the game couldn't work properly in higher resolutions. I have tested some of them and you can play in Full HD (1920x1080) without any problems. To change the resolution you have to click input field and write your number (width or height). Remember that you can change resolution (and any other settings via FOnline.cfg too.</p>
+              <p>After configuring the client, you can run FOnline.exe and register your character.</p>
+            </div>
+          </article>
+          <article class="card section" id="register">
+            <div class="card-body">
+              <h2>3. Register character and start playing</h2>
+              <p>Now you can create your first character and start playing FOnline Reloaded.</p>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam fugit animi libero nihil magnam quis beatae accusantium sed numquam ea quasi, atque, impedit, quidem error accusamus veniam alias iusto assumenda blanditiis doloremque soluta? Explicabo assumenda consectetur dolor.</p>
+          </article>
+      </div>
+    </main>
+    <a href="#header" class="btn btn-primary btn-top" id="buttonTop">Top</a>
+    <script src="javascript//main.js"></script>
+  </body>
+</html>

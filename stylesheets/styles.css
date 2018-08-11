@@ -1,0 +1,36 @@
+/* basic styles */
+
+body {
+  background-color: #fff;
+  color: #5f6368;
+  font-family: 'Roboto', sans-serif;
+  text-align: justify;
+}
+
+/* section styles */
+
+.section {
+  margin: 0 0 7.5rem 0;
+}
+
+/* code styles */
+
+.code {
+  margin: 0 0 1.25rem 0;
+  display: block;
+}
+
+/* btn styles */
+
+.btn-top {
+  position: fixed;
+  bottom: 1.25rem;
+  left: 1.25rem;
+  z-index: 999;
+  display: none;
+  opacity: 0.8;
+}
+
+.btn-show {
+  display: block;
+}
